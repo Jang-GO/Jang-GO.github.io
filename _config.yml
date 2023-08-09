@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: Jang-GO의 개발 블로그
+description: 개발 관련된 공부 내용을 지속적으로 포스팅 합니다.
+url: https://jang-go.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -28,15 +28,10 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
-logo: logo.png
 social:
-  name: Songzi Vong
+  name: HyeonSeo Jang
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/Jang-GO
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +49,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: HyeonSeo Jang
+  url: https://github.com/Jang-GO/
+  email: jang8195@naver.com
