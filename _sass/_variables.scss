@@ -26,13 +26,15 @@
   --blue-400: #4dabf7;
   --yellow-100: #fff3bf;
 
-  --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --body-font-size: 18px;
-  --body-line-height: 1.5;
+  // 기본 폰트를 Montserrat로 변경
+  --body-font: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --body-font-size: 16px;
+  --body-line-height: 1.8;
   --body-color: var(--gray-700);
-  --body-bg: #fff;
+  --body-bg: #f8f8f8;
 
-  --text-font: Times, "Times New Roman", "Free Serif", "Noto Serif", TimesNewRomanPSMT, "Droid Serif";
+  // 본문 텍스트 폰트도 동일하게 Montserrat로 변경
+  --text-font: 'Montserrat', Times, "Times New Roman", "Free Serif", "Noto Serif", TimesNewRomanPSMT, "Droid Serif";
 
   --link-color: var(--blue);
   --link-hover-color: #1c7ed6;

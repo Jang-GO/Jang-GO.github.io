@@ -8,14 +8,22 @@ pre {
   font-family: var(--code-font);
 }
 
+/* 인라인 코드 스타일 */
 code {
-  font-size: 85%;
+  background-color: #fdf6e3; /* 인라인 코드 배경색 */
+  color: #d5636a; /* 인라인 코드 텍스트 색상 */
+  padding: 2px 4px; /* 인라인 코드 패딩 */
+  border-radius: 4px; /* 둥근 테두리 */
 }
 
-pre {
+/* pre 내의 code 태그는 기본 스타일만 유지 */
+pre code {
   display: block;
-  margin-top: 0;
-  margin-bottom: var(--spacer-3);
+  background-color: inherit; /* 배경색 제거 */
+  color: inherit; /* 텍스트 색상 제거 */
+  padding: 0; /* 패딩 제거 */
+  border-radius: 0; /* 테두리 둥글게 하지 않음 */
+  box-shadow: none; /* 그림자 제거 */
   overflow: auto;
 }
 
