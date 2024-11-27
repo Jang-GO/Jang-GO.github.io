@@ -1,116 +1,92 @@
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
-.highlight, .highlight .w {
-  color: #24292f;
-  background-color: #f6f8fa;
+.highlight {
+  background-color: #282c34; /* IntelliJ IDEA 어두운 배경 */
+  color: #f8f8f2; /* 기본 텍스트 색상 */
 }
-.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv {
-  color: #cf222e;
+
+.highlight table td {
+  padding: 5px;
 }
-.highlight .gr {
-  color: #f6f8fa;
+
+.highlight table pre {
+  margin: 0;
 }
-.highlight .gd {
-  color: #82071e;
-  background-color: #ffebe9;
+
+/* 키워드 */
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #c678dd; /* 보라색 키워드 */
 }
-.highlight .nb {
-  color: #953800;
+
+/* 타입 키워드 */
+.highlight .kt {
+  color: #61afef; /* 파란색 타입 키워드 */
 }
-.highlight .nc {
-  color: #953800;
+
+/* 문자열 */
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .s1, .highlight .s2 {
+  color: #98c379; /* 녹색 문자열 */
 }
-.highlight .no {
-  color: #953800;
+
+/* 숫자 */
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il {
+  color: #d19a66; /* 주황색 숫자 */
 }
-.highlight .nn {
-  color: #953800;
+
+/* 주석 */
+.highlight .c, .highlight .ch, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #5c6370; /* 회색 주석 */
+  font-style: italic; /* 기울임 */
 }
-.highlight .sr {
-  color: #116329;
+
+/* 클래스 이름 */
+.highlight .nc, .highlight .nn {
+  color: #e5c07b; /* 노란색 클래스 이름 */
 }
-.highlight .na {
-  color: #116329;
+
+/* 함수 이름 */
+.highlight .nf {
+  color: #61afef; /* 함수 이름 - 파란색 */
 }
-.highlight .nt {
-  color: #116329;
-}
-.highlight .gi {
-  color: #116329;
-  background-color: #dafbe1;
-}
-.highlight .ges {
-  font-weight: bold;
-  font-style: italic;
-}
-.highlight .kc {
-  color: #0550ae;
-}
-.highlight .l, .highlight .ld, .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
-  color: #0550ae;
-}
-.highlight .sb {
-  color: #0550ae;
-}
-.highlight .bp {
-  color: #0550ae;
-}
-.highlight .ne {
-  color: #0550ae;
-}
-.highlight .nl {
-  color: #0550ae;
-}
-.highlight .py {
-  color: #0550ae;
-}
-.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
-  color: #0550ae;
-}
-.highlight .o, .highlight .ow {
-  color: #0550ae;
-}
-.highlight .gh {
-  color: #0550ae;
-  font-weight: bold;
-}
-.highlight .gu {
-  color: #0550ae;
-  font-weight: bold;
-}
-.highlight .s, .highlight .sa, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .ss {
-  color: #0a3069;
-}
-.highlight .nd {
-  color: #8250df;
-}
-.highlight .nf, .highlight .fm {
-  color: #8250df;
-}
+
+/* 에러 */
 .highlight .err {
-  color: #f6f8fa;
-  background-color: #82071e;
+  color: #f44747; /* 빨간색 에러 */
+  background-color: #2c313a; /* 약간 어두운 배경 */
 }
-.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
-  color: #6e7781;
+
+/* 어노테이션 */
+.highlight .na {
+  color: #e06c75; /* 빨간색 어노테이션 */
 }
-.highlight .gl {
-  color: #6e7781;
+
+/* public, class 등 */
+.highlight .kd {
+  color: #c678dd; /* 보라색 키워드 */
 }
-.highlight .gt {
-  color: #6e7781;
+
+/* 추가 스타일 */
+.highlight .gh {
+  color: #dcdfe4;
+  font-weight: bold;
 }
-.highlight .ni {
-  color: #24292f;
+
+.highlight .gi {
+  color: #98c379;
+  background-color: #2c313a;
 }
-.highlight .si {
-  color: #24292f;
+
+.highlight .gd {
+  color: #f44747;
+  background-color: #2c313a;
 }
-.highlight .ge {
-  color: #24292f;
-  font-style: italic;
+
+.highlight .o {
+  color: #d19a66;
 }
-.highlight .gs {
-  color: #24292f;
+.highlight .n {
+  color: #cb9869;
+}
+/* 어노테이션 스타일 추가 */
+.highlight .nd {
+  color: #61afef; /* IntelliJ 스타일 파란색 */
   font-weight: bold;
 }

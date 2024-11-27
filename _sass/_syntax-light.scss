@@ -1,88 +1,92 @@
-/**
- * rougify style gruvbox.light
- */
+.highlight {
+  background-color: #282c34; /* IntelliJ IDEA 어두운 배경 */
+  color: #f8f8f2; /* 기본 텍스트 색상 */
+}
 
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
-.highlight, .highlight .w {
-  color: #282828;
-  background-color: #fbf1c7;
+.highlight table td {
+  padding: 5px;
 }
-.highlight .err {
-  color: #9d0006;
-  background-color: #fbf1c7;
-  font-weight: bold;
+
+.highlight table pre {
+  margin: 0;
 }
-.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
-  color: #928374;
-  font-style: italic;
-}
-.highlight .cp {
-  color: #427b58;
-}
-.highlight .nt {
-  color: #9d0006;
-}
-.highlight .o, .highlight .ow {
-  color: #282828;
-}
-.highlight .p, .highlight .pi {
-  color: #282828;
-}
-.highlight .gi {
-  color: #79740e;
-  background-color: #fbf1c7;
-}
-.highlight .gd {
-  color: #9d0006;
-  background-color: #fbf1c7;
-}
-.highlight .gh {
-  color: #79740e;
-  font-weight: bold;
-}
+
+/* 키워드 */
 .highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
-  color: #9d0006;
+  color: #c678dd; /* 보라색 키워드 */
 }
-.highlight .kc {
-  color: #8f3f71;
-}
+
+/* 타입 키워드 */
 .highlight .kt {
-  color: #b57614;
+  color: #61afef; /* 파란색 타입 키워드 */
 }
-.highlight .kd {
-  color: #af3a03;
+
+/* 문자열 */
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .s1, .highlight .s2 {
+  color: #98c379; /* 녹색 문자열 */
 }
-.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #79740e;
-  font-style: italic;
+
+/* 숫자 */
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il {
+  color: #d19a66; /* 주황색 숫자 */
 }
-.highlight .si {
-  color: #79740e;
-  font-style: italic;
+
+/* 주석 */
+.highlight .c, .highlight .ch, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #5c6370; /* 회색 주석 */
+  font-style: italic; /* 기울임 */
 }
-.highlight .sr {
-  color: #79740e;
-  font-style: italic;
+
+/* 클래스 이름 */
+.highlight .nc, .highlight .nn {
+  color: #e5c07b; /* 노란색 클래스 이름 */
 }
-.highlight .se {
-  color: #af3a03;
+
+/* 함수 이름 */
+.highlight .nf {
+  color: #61afef; /* 함수 이름 - 파란색 */
 }
-.highlight .nn {
-  color: #427b58;
+
+/* 에러 */
+.highlight .err {
+  color: #f44747; /* 빨간색 에러 */
+  background-color: #2c313a; /* 약간 어두운 배경 */
 }
-.highlight .nc {
-  color: #427b58;
-}
-.highlight .no {
-  color: #8f3f71;
-}
+
+/* 어노테이션 */
 .highlight .na {
-  color: #79740e;
+  color: #e06c75; /* 빨간색 어노테이션 */
 }
-.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
-  color: #8f3f71;
+
+/* public, class 등 */
+.highlight .kd {
+  color: #c678dd; /* 보라색 키워드 */
 }
-.highlight .ss {
-  color: #076678;
+
+/* 추가 스타일 */
+.highlight .gh {
+  color: #dcdfe4;
+  font-weight: bold;
+}
+
+.highlight .gi {
+  color: #98c379;
+  background-color: #2c313a;
+}
+
+.highlight .gd {
+  color: #f44747;
+}
+
+.highlight .o {
+  color: #d19a66;
+}
+
+.highlight .n {
+  color: #c5996f;
+}
+/* 어노테이션 스타일 추가 */
+.highlight .nd {
+  color: #61afef; /* IntelliJ 스타일 파란색 */
+  font-weight: bold;
 }
