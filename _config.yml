@@ -4,7 +4,7 @@ description: 개발 관련된 공부 내용을 지속적으로 포스팅 합니�
 url: https://jang-go.github.io
 avatar: /avatar.jpeg
 paginate: 5
-permalink: pretty
+permalink: /:title/
 cover_image: /bg.jpeg
 
 # Gems
